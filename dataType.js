@@ -1,5 +1,18 @@
-let name = 'Nasser';
+/*let name = 'Nasser';
 let age = 30;
 
 console.log(typeof name);
 console.log(typeof age);
+
+let result = 2 > 3;
+console.log(result);
+console.log(typeof result);
+
+let message = 'Welcome to JS';
+console.log(typeof message);
+console.log(message);
+*/
+
+let language = 'JavaScript';
+let message = `welcome to ${language}`;
+console.log(message);
