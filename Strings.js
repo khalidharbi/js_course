@@ -1,2 +1,4 @@
 let language = 'JavaScript';
-console.log(language.length)
+let message = 'Welcome to ';
+
+console.log(message + language);
