@@ -20,3 +20,6 @@ console.log(message);
 
 let name;
 console.log(name); //undefined
+
+let value = -2.5;
+console.log(value);
