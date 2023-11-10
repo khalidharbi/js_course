@@ -1,4 +1,4 @@
-let colors = ["red", "green", "blue"]; //declaring an array
+/*let colors = ["red", "green", "blue"]; //declaring an array
 console.log(colors);
 console.log(colors[0]);
 colors[1] = 'black';
@@ -19,3 +19,12 @@ console.log(colors);
 console.log(graycolor);
 
 console.log(Array.isArray(colors));
+*/
+
+//2D array
+const values = [
+    [1, 2, 3],
+    [4, 5, 6], 
+    [7, 8, 9]
+];
+console.log(values[2][1]);
