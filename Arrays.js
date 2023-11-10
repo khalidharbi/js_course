@@ -17,3 +17,5 @@ console.log(colors);
 const graycolor = colors.shift();
 console.log(colors);
 console.log(graycolor);
+
+console.log(Array.isArray(colors));
