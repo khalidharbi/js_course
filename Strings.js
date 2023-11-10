@@ -7,4 +7,4 @@ console.log(message + language);
 
 let language = 'JavaScript';
 
-console.log(language[0]);
+console.log(language[4]);
