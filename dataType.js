@@ -11,8 +11,12 @@ console.log(typeof result);
 let message = 'Welcome to JS';
 console.log(typeof message);
 console.log(message);
-*/
+
 
 let language = 'JavaScript';
 let message = `welcome to ${language}`;
 console.log(message);
+*/
+
+let name;
+console.log(name); //undefined
