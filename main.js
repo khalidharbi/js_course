@@ -1,10 +1,7 @@
-let color = 'red';
+let name = 'Ali';
+console.log(name);
 
-console.log(color);
-console.log(color);
-console.log(color);
-console.log(color);
-console.log(color);
+let age = 25;
+const yearOfBirth = 1999;
 
-color = 'black';
-console.log(color);
+console.log(yearOfBirth);
