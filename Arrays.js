@@ -28,3 +28,7 @@ const values = [
     [7, 8, 9]
 ];
 console.log(values[2][1]);
+
+let message = 'Welcoome to JavaScript';
+let result = message.split(' ');
+console.log(result);
