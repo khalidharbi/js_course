@@ -26,7 +26,7 @@ console.log('Zero');
 */
 
 const colors = ['red', 'green', 'blue'];
-let colorNum = 1;
+let colorNum = 545;
 
 switch(colorNum){
     case 1:
@@ -37,5 +37,12 @@ switch(colorNum){
         break;
     case 3:
         console.log(colors[2]);
+        break;
+    case 4:
+    case 5:
+    case 6:
+        console.log('black');
+    default:
+        console.log('white');
         break;
 }
