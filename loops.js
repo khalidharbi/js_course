@@ -31,7 +31,7 @@ for (let index =1; index <= 10; index++){
     }
     console.log(index);
 }
-*/
+
 
 const colors = ['red', 'green', 'blue'];
 for (let i = 0; i < colors.length; i++){
@@ -43,3 +43,17 @@ console.log('-----------------------------')
 for(let color of colors){
     console.log(color);
 }
+*/
+
+const message = 'Welcome to JavaScript';
+
+for(let char of message){
+    console.log(char);
+}
+
+let res;
+for (let i= 0; i <= message.length; i++){
+     res = i + 0;
+}
+
+console.log(res);
