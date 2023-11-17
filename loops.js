@@ -1,3 +1,4 @@
+/*
 for (let i= 5; i > 0; i--){
     console.log(i);
 }
@@ -29,4 +30,16 @@ for (let index =1; index <= 10; index++){
         break;
     }
     console.log(index);
+}
+*/
+
+const colors = ['red', 'green', 'blue'];
+for (let i = 0; i < colors.length; i++){
+    console.log(colors[i]);
+}
+
+console.log('-----------------------------')
+
+for(let color of colors){
+    console.log(color);
 }
