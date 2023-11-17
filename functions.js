@@ -26,5 +26,17 @@ function add(firstNum, seceondNum){
     return result;
 }
 
-let value = add(2, 7);
+let value = add(2, 7) + add(6,2);
 console.log(value);
+
+function printNumbers(to){
+    if (to > 10){
+        return console.log("sorry");
+    }
+    for(let i=1; i <= to; i++){
+        console.log(i);
+    }
+    return;
+}
+
+printNumbers(34);
