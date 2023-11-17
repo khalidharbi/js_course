@@ -13,3 +13,12 @@ console.log("Sorry, you are not old enough to play this game");
 else{
 console.log("Welcome to the game");  
 }
+
+let number = 1;
+if (number > 0) {
+console.log('+');
+}else if (number < 0) {
+console.log('-');
+}else {
+console.log('Zero');
+}
